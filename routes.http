@@ -1,0 +1,30 @@
+POST http://{{host}}/videos
+Content-Type: application/json
+#Accept-Language:
+
+{
+  "title": "Video node",
+  "description": "Esse é o primeiro Vídeo 2",
+  "duration": 60
+}
+
+###
+
+GET http://{{host}}/videos
+#GET http://{{host}}/videos?search=node
+
+###
+
+PUT http://{{host}}/videos/653c208f-1841-447d-a704-b9bad743bdd0
+Content-Type: application/json
+#Accept-Language:
+
+{
+  "title": "Video 02 Updated",
+  "description": "Esse é o primeiro Vídeo",
+  "duration": 60
+}
+
+###
+
+DELETE http://{{host}}/videos/653c208f-1841-447d-a704-b9bad743bdd0
