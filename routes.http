@@ -3,7 +3,7 @@ Content-Type: application/json
 #Accept-Language:
 
 {
-  "title": "Video node",
+  "title": "Video node 02",
   "description": "Esse é o primeiro Vídeo 2",
   "duration": 60
 }
