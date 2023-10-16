@@ -10,6 +10,9 @@
     "dev": "node --watch server.js",
     "dev-no-warning": "node --watch --no-warnings server.js"
   },
+  "engines": {
+    "node": "20.8.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
