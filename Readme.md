@@ -1,3 +1,8 @@
+# Easy and free deploy
+
+For database use: [Neon](console.neon.tech)
+For deploy use: [Render](dashboard.render.com)
+
 # Roadmap de estudos
 
 - [ ] APIs Nativas
